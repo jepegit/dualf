@@ -1,0 +1,390 @@
+
+<!-- saved from url=(0049)http://www.cchem.berkeley.edu/jsngrp/fortran.html -->
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:st1="urn:schemas-microsoft-com:office:smarttags" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Microsoft Theme 2.00" content="Quad 111">
+
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="Microsoft Word 10">
+<meta name="Originator" content="Microsoft Word 10">
+<link rel="File-List" href="http://www.cchem.berkeley.edu/jsngrp/che295b_fl_2004_files/filelist.xml">
+<link rel="Edit-Time-Data" href="http://www.cchem.berkeley.edu/jsngrp/che295b_fl_2004_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Fortran Programs</title>
+</head><body lang="EN-US" link="#CC6600" vlink="#996666" style="tab-interval:
+.5in" alink="#0000FF"><o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="PlaceType">
+<o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="PlaceName">
+<o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="country-region">
+<o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="time">
+<o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="place">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Karen</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Onishi</o:LastAuthor>
+  <o:Revision>4</o:Revision>
+  <o:TotalTime>304</o:TotalTime>
+  <o:Created>2005-01-25T16:34:00Z</o:Created>
+  <o:LastSaved>2005-01-25T17:03:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>670</o:Words>
+  <o:Characters>3822</o:Characters>
+  <o:Company>ft</o:Company>
+  <o:Lines>31</o:Lines>
+  <o:Paragraphs>8</o:Paragraphs>
+  <o:CharactersWithSpaces>4484</o:CharactersWithSpaces>
+  <o:Version>10.3501</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:DefaultTableStyle Number="155">Table Theme</w:DefaultTableStyle>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+ </w:WordDocument>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-alt:"\FF2D\FF33 \660E\671D";
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+@font-face
+	{font-family:"Trebuchet MS";
+	panose-1:2 11 6 3 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Trebuchet MS";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:#663333;}
+h1
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";
+	color:#663333;
+	mso-font-kerning:0pt;
+	font-weight:bold;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";
+	color:#663333;
+	font-weight:normal;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:"Trebuchet MS";
+	mso-fareast-font-family:"MS Mincho";
+	color:#663333;
+	font-weight:normal;}
+h4
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:14.0pt;
+	font-family:"Trebuchet MS";
+	mso-fareast-font-family:"MS Mincho";
+	color:#663333;
+	font-weight:normal;}
+h5
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	font-size:13.0pt;
+	font-family:"Trebuchet MS";
+	mso-fareast-font-family:"MS Mincho";
+	color:#663333;
+	font-weight:normal;}
+h6
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	font-size:11.0pt;
+	font-family:"Trebuchet MS";
+	mso-fareast-font-family:"MS Mincho";
+	color:#663333;
+	font-weight:normal;}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Trebuchet MS";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:windowtext;}
+a:link, span.MsoHyperlink
+	{color:#CC6600;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#996666;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{mso-style-noshow:yes;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	background:navy;
+	font-size:12.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";
+	color:#663333;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Trebuchet MS";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:#663333;}
+tt
+	{font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:"MS Mincho";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+body {
+	margin-left: 10px;
+	background-color: #F9F3DD;
+}
+.style12 {font-size: 24px}
+.style13 {
+	font-size: 18px;
+	color: #FF0033;
+}
+.style14 {
+	color: #000000;
+	font-family: "Times New Roman", Times, serif;
+}
+.style16 {font-family: "Times New Roman", Times, serif}
+.style17 {color: #000000}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+table.MsoTableTheme
+	{mso-style-name:"Table Theme";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid #999966 1.0pt;
+	mso-border-alt:solid #999966 .5pt;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid #999966;
+	mso-border-insidev:.5pt solid #999966;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">  </w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="44034"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+
+
+
+<!--[if gte mso 9]><xml>
+ <v:background id="_x0000_s1025" o:bwmode="white" o:targetscreensize="800,600">
+  <v:fill type="frame"/>
+ </v:background></xml><![endif]-->
+
+<table width="734" border="0" cellpadding="5" cellspacing="0" bgcolor="#F9F3DD">
+  <!--DWLayoutTable-->
+  <tbody><tr>
+    <td width="724" height="51" align="center" valign="middle"><span class="style12">FORTRAN Programs for the Simulation of Electrochemical Systems</span></td>
+  </tr>
+  <tr>
+    <td height="38" align="center" valign="middle"><span class="style13">Please read the following before downloading our programs. </span></td>
+  </tr>
+  <tr>
+    <td height="237" valign="top"><p class="MsoNormal style14"><span class="style14">These programs are copyright John Newman 1998</span>.<span style="">&nbsp; </span></p>      <p class="MsoNormal"><span class="style14">You may make a copy of this program which you may personally and freely use in its unaltered form.&nbsp; You may make changes for your own personal use to dualfoil.f's material database located in subroutines ekin (electrodes) and prop (electrolytes).&nbsp; You may distribute this program subject to the conditions that it stays free of charge and that any duplication of this program must be essentially unaltered and must include this notice.&nbsp; We make no warranties, expressed or implied, that this program is free of errors or that it will meet the requirements of your application. The author and publisher disclaim all liability for direct or consequential damages resulting from use of this program</span>.</p>      <p class="MsoNormal">&nbsp;</p>      <p class="MsoNormal style14"><span class="style14"><a href="http://www.cchem.berkeley.edu/jsngrp/fortran_files/band.f">BAND(J)</a> subroutine</span> <br>
+        <br>
+        <span class="style16"><span class="style17"><a href="http://www.cchem.berkeley.edu/jsngrp/fortran_files/dualfoil5.2">dualfoil5.2.f</a><a href="http://www.cchem.berkeley.edu/jsngrp/fortran_files/dualfoil5.1.f"></a> program for lithium ion, sodium ion, and nickel-metal hydride battery simulation<br>
+        <a href="http://www.cchem.berkeley.edu/jsngrp/fortran_files/dualfoil5.2"></a></span></span></p>
+      <p class="MsoNormal style14"><span class="style16"><span class="style17"><a href="http://www.cchem.berkeley.edu/jsngrp/fortran_files/li-ion.in">li-ion.in</a> input file for lithium ion battery simulation<br>
+        <a href="http://www.cchem.berkeley.edu/jsngrp/fortran_files/dualfoil5_nimh.in">dualfoil5_nimh.in</a> input file for nickel-metal hydride battery simulation<br>
+        <a href="http://www.cchem.berkeley.edu/jsngrp/fortran_files/li-ion-ebar.in">li-ion-ebar.in</a> input file with activation energies for lithium-ion battery simulation <br>
+        <br>
+      </span></span></p>
+      <p class="MsoNormal style14"><span class="style16"><span class="style17"><a href="http://www.cchem.berkeley.edu/jsngrp/fortran_files/dualfoilfaq.pdf" target="_self">Instruction manual </a>for how to use dualfoil.f (Manual for Version 4)<br>
+        <a href="http://www.cchem.berkeley.edu/jsngrp/fortran_files/Intro_Dualfoil5.pdf">Instruction manual</a> for how to use dualfoil5.f (Manual for Version 5) <br>
+      </span></span></p>
+    </td>
+  </tr>
+  <tr>
+    <td height="173" valign="top">Version updated April 2014.<br>
+- Radial mass transfer has been added to the program to allow very high currents to be run. This addition reflects the reality that lithium ions cannot move at infinite rates to the reaction site.<br>
+- EX (exbrug exponent) is now set separately for the negative (exbrug1), the separator (exbrug2), and the positive (exbrug3).<br>
+- We have added a function for a special separator (called a shutdown separator) whose porosity goes to zero above a given temperature range.<br>
+<br>
+ Version updated February 27, 2008. Several major changes have been made in going to dualfoil 5.1<br>
+      - Subroutine guess has been removed<br>
+       - Convergence has been improved and the dV/dt trigger has been removed<br>
+       - fj(j) for cutting off part of the electrode has been removed<br>
+       - The variables have been renamed<br>
+       - A grid resistance, RG, has been added<br>
+       - An error in the dualfoil5.f impedance calculation for anode and cathode has
+       been corrected; the dualfoil5.f full-cell impedance was correct<br>
+       - The equation structure for impedance mode has been made general,
+       facilitating future additions<br>
+       - We have improved the output formatting<br>
+       - We have improved the logic of the multiple-particle selection section      <br>
+      <br>
+      Version updated October 17, 2007. Two small changes have been made to Dualfoil 5.0.<br>  
+      - The value of the stoichiometric parameter x in the input file was changed from x=0.99 to x=0.60. This results in an anode-limited cell upon discharge.<br>
+      - An error that prevented the use of a lithium metal anode was corrected. <br>
+      <br>
+      Version updated August 14, 2007, has a series of major modifications which are detailed at the top of the code and in the additional instruction manual posted above. <br>
+      <br>
+      Version updated May 17, 2005. Introduction of an upper and lower cutoff potential. <br>
+      Note: old verions of the input file are not compatible with the new version.<br>
+      The previous version of Dualfoil (July 15, 2003) used a single cutoff potential, which caused problems when a user attempted to charge the cell following a discharge. For example, if the global cutoff potential was set to 3.0V and the cell discharged beneath that value, upon charging the cutoff potential would be triggered when the cell potential exceeded 3.0V. The revised version of dualfoil.f uses two global cutoff potentials, one that serves as an upper bound and one that serves as a lower bound. <br>
+      dualfoil.in has been modified to allow the user to specify two cutoff potentials.<br>
+      <br>
+      Version updated July 15, 2003. Program now runs either impedance or constant current/potential. <br>
+      Make imp=1 in dualfoil.in for the impedance option, in not use imp=0.<br> 
+      Has been run under g77, f77, mf77, and Visual Fortran.<br>      <br>      
+    <a href="http://www.cchem.berkeley.edu/jsngrp/fortran_files/car2.f">car2.f</a> program to simulate battery performance in a hybrid electric vehicle<br>
+    <a href="http://www.cchem.berkeley.edu/jsngrp/fortran_files/specg">specg</a> general input file for program car2.f </td>
+  </tr>
+  <tr>
+    <td height="450" valign="top"><p><u><span class="style16">N<span class="style17"></span></span><span class="style14">eed to find a Fortran compiler? <o:p></o:p></span></u></p>      <p class="style14" style="margin: 2pt 0in;">For Windows (98, NT, 2000, and XP): <br>
+    1.<span style="">&nbsp; </span>Download the <span class="SpellE">MinGW</span> precompiled binary, made available by courtesy of the GNU project: <br>
+    (about 10 MB) <a href="http://www.cchem.berkeley.edu/jsngrp/MinGW-2.0.0-3.exe">mingwv2.exe</a> </p>      <p class="style14" style="margin: 2pt 0in;">2.<span style="">&nbsp; </span>Double-click on it to run the installer.&nbsp; It will install the <span class="SpellE">fortran</span> compiler g77 as well as compilers for <br>
+    other languages such as c. </p>      <p class="style14" style="margin: 2pt 0in;">3.<span style="">&nbsp; </span>Now go to the DOS prompt (also called command prompt).&nbsp; Go to the root directory (C:) <br>
+    and edit the file AUTOEXEC.BAT (warning: messing up this particular file can incapacitate your PC) to add the line: <br>
+    PATH=C:\folder\<span class="SpellE">bin;%PATH</span>%; where \folder is the directory where you put <span class="SpellE">mingw</span>. &nbsp;Restart your computer to activate this new path file.<span style="">&nbsp; </span>Newer Windows versions require you to go to start→ control panel→ System→ Advanced→ Environmental variables and adding the path in the appropriate section.<span style="">&nbsp; </span>Warnings about your PC being incapacitated apply.<span style="">&nbsp; </span>Come to think about it, these warnings almost always apply. </p>      <p class="style14" style="margin: 2pt 0in;">4.<span style="">&nbsp; </span>The compiler is run from the DOS prompt by typing: g77 <span class="SpellE">filename.f</span><span style="">&nbsp; </span>where filename is the name of your <span class="SpellE">fortran</span> file. This should create an output file called a.exe. </p>      <p class="style14" style="margin: 2pt 0in;">5.<span style="">&nbsp; </span>You can execute this by typing: a </p>      <p class="style14">For more information about compilers for other operating systems, see the GNU website at <a href="http://www.gnu.org/software/gcc/releases.html" target="_top">http://www.gnu.org/software/gcc/releases.html</a> </p>      <p><span class="style14">Find all this a bit too complicated?&nbsp; Why not use <a href="http://h18009.www1.hp.com/fortran/visual/index.html" target="_top">Visual Fortran</a>?&nbsp; Did we mention that they charge a “small” <a href="http://www.software.hp.com/cgi-bin/swdepot_parser.cgi/cgi/displayProducts.pl?group_name=Compaq%20Visual%20Fortran&amp;group_image=cat_featured.gif&amp;group_type=family" target="_top">fee</a></span>?<br>
+      <br>
+      <span class="style14">Questions and comments can be sent to Professor Newman, newman (at) newman.cchem.berkeley.edu<br> 
+      </span></p></td>
+  </tr>
+</tbody></table>
+
+
+
+ <p></p>
+
+
+
+
+
+
+</o:smarttagtype></o:smarttagtype></o:smarttagtype></o:smarttagtype></o:smarttagtype></body></html>

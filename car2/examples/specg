@@ -1,0 +1,44 @@
+100       ! Athick, Anode thickness (microns)
+100       ! Cthick, Cathode thickness (microns)
+0.90      ! Aact, Anode volume % active material
+0.90      ! Cact, Cathode volume % active material
+2.5       ! Bmass, battery mass per unit separator area (kg/m2)
+0.66      ! Pbrake, % regenerative braking
+0.008     ! C1, rolling drag coefficient
+0.20      ! C2, air drag coefficient
+1.75      ! Area, vehicle front surface area (m2)
+10000      ! Adensity, Anode density (kg/m3)
+10000      ! Cdensity, Cathde density (kg/m3)
+700       ! Vmass, base vehicle mass (kg)
+6.7536    ! Apower1a, acceleration power slope; 40 km/hr
+118.3     ! Apower1b, acceleration power intercept; 40 km/hr
+10.519    ! Apower2a, acceleration power slope; 55 km/hr
+315.68    ! Apower2b, acceleration power intercept; 55 km/hr
+16.758    ! Apower3a, acceleration power slope; 70 km/hr
+648.06    ! Apower3b, acceleration power intercept; 70 km/hr
+22.107    ! Apower4a, acceleration power slope; 90 km/hr
+1412.8    ! Apower4b, acceleration power intercept; 90 km/hr
+20        ! Meng, maximum engine size (kw)
+0.55      ! Emass, engine weight (kw/kg)
+135       ! Pmass, passenger mass (kg)
+0.80      ! Peff, powertrain efficiency
+0.40      ! Eeff, engine thermal efficiency
+0.85      ! Geff, electric motor efficiency
+0.85      ! Beff, engine into battery (generator) efficiency
+207     ! MwA, molecular weight of Anode (g/mol)
+207    ! MwC, molecular weight of Cathode (g/mol)
+0.0000    ! ScA1, state of charge adjustment factor, Anode
+0.0000    ! ScA2, state of charge adjustment factor, Anode
+1.0000    ! ScA3, state of charge adjustment factor, Anode
+0.0000    ! ScC1, state of charge adjustment factor, Cathode
+0.0000    ! ScC2, state of charge adjustment factor, Cathode
+1.0000    ! ScC3, state of charge adjustment factor, Cathode
+0.0000    ! Op1, overpotential parameter fit.
+0.00075    ! Op2, overpotential parameter fit. 
+0.0000    ! Op3, overpotential parameter fit.
+0.0000    ! OcA1, open-circuit anode fit.
+0.0000    ! OcA2, open-circuit anode fit.
+0.0000    ! OcA3, open-circuit anode fit.
+0.0000    ! OcC1, open-circuit cathode fit.
+0.0000    ! OcC2, open-circuit cathode fit.
+2.1000    ! OcC3, open-circuit cathode fit.
